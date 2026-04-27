@@ -14,7 +14,7 @@ float x, y;
 public:
  Cartesian() {}
     Cartesian(Polar p) {
-        x=p.r*cos(p.theta);
+x=p.r*cos(p.theta);
         y= p.r*sin(p.theta); }
  void show() {
 cout << "x = " << x << ", y = " << y << endl;
